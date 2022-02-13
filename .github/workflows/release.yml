@@ -8,9 +8,6 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
-      - name: Validate and extract release information
-        id: release
-        uses: manovotny/github-releases-for-automated-package-publishing-action@v1.0.0
       - name: Read node version
         id: nvm
         run: echo "::set-output name=version::$(cat .nvmrc)"
@@ -36,6 +33,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish version with tag
         if: steps.release.outputs.tag != ''
-        run: npm publish --tag ${{ steps.release.outputs.tag }}
+        run: npm publish --tag ${{ steps.release.outputs.tag }} --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
