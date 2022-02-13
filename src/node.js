@@ -11,7 +11,6 @@ module.exports = {
         'node/no-extraneous-require': 'error',
         'node/no-new-require': 'error',
         'node/no-path-concat': 'error',
-        'node/no-sync': 'error',
         'node/no-unpublished-bin': 'error',
         'node/no-unpublished-import': 'error',
         'node/no-unpublished-require': 'error',

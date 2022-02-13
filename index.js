@@ -11,7 +11,6 @@ const jest = require('./src/jest');
 const json = require('./src/json');
 const next = require('./src/next');
 const node = require('./src/node');
-const objects = require('./src/objects');
 const prettier = require('./src/prettier');
 const react = require('./src/react');
 const security = require('./src/security');
@@ -27,7 +26,6 @@ const config = mergeAndConcat(
     json,
     next,
     node,
-    objects,
     react,
     security,
     unicorn,

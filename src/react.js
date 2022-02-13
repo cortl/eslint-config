@@ -190,7 +190,6 @@ const config = {
         'react/no-array-index-key': 'error',
         'react/no-arrow-function-lifecycle': 'error',
         'react/no-children-prop': 'error',
-        'react/no-danger': 'error',
         'react/no-danger-with-children': 'error',
         'react/no-deprecated': 'error',
         'react/no-did-mount-set-state': ['error', 'disallow-in-func'],
