@@ -22,7 +22,6 @@ const config = mergeAndConcat(
     comments,
     babel,
     eslint,
-    getOffMyLawn,
     imprt,
     jest,
     json,
