@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cortl/cortlint.git"
+    "url": "git+https://github.com/cortl/eslint-config.git"
   },
   "keywords": [
     "eslint-config",
@@ -20,9 +20,9 @@
   "author": "Cortlan Bainbridge",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cortl/cortlint/issues"
+    "url": "https://github.com/cortl/eslint-config/issues"
   },
-  "homepage": "https://github.com/cortl/cortlint#readme",
+  "homepage": "https://github.com/cortl/eslint-config#readme",
   "dependencies": {
     "@babel/core": "7.17.0",
     "@babel/eslint-parser": "7.17.0",
