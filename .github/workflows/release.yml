@@ -28,7 +28,7 @@ jobs:
         run: npm ci
       - name: Publish version
         if: steps.release.outputs.tag == ''
-        run: npm publish
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish version with tag
