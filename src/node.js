@@ -11,9 +11,9 @@ module.exports = {
         'node/no-extraneous-require': 'error',
         'node/no-new-require': 'error',
         'node/no-path-concat': 'error',
-        'node/no-unpublished-bin': 'error',
-        'node/no-unpublished-import': 'error',
-        'node/no-unpublished-require': 'error',
+        'node/no-unpublished-bin': 'off',
+        'node/no-unpublished-import': 'off',
+        'node/no-unpublished-require': 'off',
         'node/no-unsupported-features/es-builtins': 'error',
         'node/no-unsupported-features/node-builtins': 'error',
         // While the `Buffer` class is available within the global scope, it is still recommended to explicitly reference it via an import or require statement.

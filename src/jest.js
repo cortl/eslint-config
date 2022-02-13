@@ -71,6 +71,11 @@ const config = {
         'jest-formatting/padding-around-expect-groups': 'error',
         'jest-formatting/padding-around-test-blocks': 'error',
     },
+    settings: {
+        jest: {
+            version: jest
+        }
+    }
 };
 
 module.exports = jest ? config : {};

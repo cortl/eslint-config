@@ -113,7 +113,7 @@ const config = {
                 },
             },
         ],
-        'unicorn/template-indent': 'error',
+        'unicorn/template-indent': 'off',
         'unicorn/throw-new-error': 'error',
     },
 };
