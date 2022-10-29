@@ -1,6 +1,6 @@
 {
   "name": "@cortl/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Shareable ESlint/Prettier config",
   "main": "index.js",
   "repository": {
@@ -28,7 +28,7 @@
     "@babel/eslint-parser": "7.17.0",
     "@babel/preset-react": "7.16.7",
     "@next/eslint-plugin-next": "12.0.10",
-    "@rushstack/eslint-patch": "1.1.0",
+    "@rushstack/eslint-patch": "1.2.0",
     "@typescript-eslint/eslint-plugin": "5.41.0",
     "@typescript-eslint/parser": "5.41.0",
     "confusing-browser-globals": "1.0.11",
