@@ -9,6 +9,5 @@ module.exports = {
     next: find('next'),
     prettier: find('prettier'),
     react: find('react'),
-    reactNative: find('react-native'),
     typescript: find('typescript'),
 };
