@@ -172,7 +172,7 @@ const config = {
         ],
         'react/jsx-pascal-case': 'error',
         'react/jsx-props-no-multi-spaces': 'error',
-        'react/jsx-sort-default-props': 'error',
+        'react/sort-default-props': 'error',
         'react/jsx-sort-props': 'error',
         'react/jsx-tag-spacing': [
             'error',

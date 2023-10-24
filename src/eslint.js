@@ -105,7 +105,7 @@ module.exports = {
         'no-dupe-else-if': 'error',
         'no-dupe-keys': 'error',
         'no-duplicate-case': 'error',
-        'no-duplicate-imports': [
+        'import/no-duplicates': [
             'error',
             {
                 includeExports: true,

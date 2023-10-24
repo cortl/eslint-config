@@ -31,7 +31,6 @@ const config = {
         'jest/no-identical-title': 'error',
         'jest/no-if': 'error',
         'jest/no-interpolation-in-snapshots': 'error',
-        'jest/no-jest-import': 'error',
         'jest/no-mocks-import': 'error',
         'jest/no-restricted-matchers': [
             'error',

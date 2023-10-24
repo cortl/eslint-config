@@ -1,11 +1,11 @@
-const {cwd} = require('process');
+const { cwd } = require('process');
 
 const semver = require('semver');
 const imprt = require('eslint-plugin-import/config/typescript');
 
 const eslint = require('./eslint');
-const {jest, prettier, react, typescript} = require('./utils/dependencies');
-const {jestConfig, tsConfig} = require('./utils/files/contents');
+const { jest, prettier, react, typescript } = require('./utils/dependencies');
+const { jestConfig, tsConfig } = require('./utils/files/contents');
 
 const prettierRules = prettier ? require('./prettier').rules : {};
 
@@ -135,7 +135,6 @@ const config = {
         '@typescript-eslint/no-confusing-non-null-assertion': 'error',
         '@typescript-eslint/no-confusing-void-expression': 'error',
         '@typescript-eslint/no-dupe-class-members': eslint.rules['no-dupe-class-members'],
-        '@typescript-eslint/no-duplicate-imports': eslint.rules['no-duplicate-imports'],
         '@typescript-eslint/no-empty-function': eslint.rules['no-empty-function'],
         '@typescript-eslint/no-empty-interface': 'error',
         '@typescript-eslint/no-explicit-any': 'error',
@@ -169,7 +168,7 @@ const config = {
         '@typescript-eslint/no-non-null-asserted-nullish-coalescing': 'error',
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
-        '@typescript-eslint/no-parameter-properties': 'error',
+        '@typescript-eslint/parameter-properties': 'error',
         '@typescript-eslint/no-redeclare': [
             'error',
             {
@@ -260,15 +259,10 @@ const config = {
             },
         ],
         '@typescript-eslint/require-await': eslint.rules['require-await'],
-        '@typescript-eslint/restrict-plus-operands': [
-            'error',
-            {
-                checkCompoundAssignments: true,
-            },
-        ],
+        '@typescript-eslint/restrict-plus-operands': 'error',
         '@typescript-eslint/return-await': 'error',
         '@typescript-eslint/semi': eslint.rules.semi,
-        '@typescript-eslint/sort-type-union-intersection-members': 'error',
+        '@typescript-eslint/sort-type-constituents': 'error',
         '@typescript-eslint/space-before-function-paren': eslint.rules['space-before-function-paren'],
         '@typescript-eslint/space-infix-ops': eslint.rules['space-infix-ops'],
         '@typescript-eslint/triple-slash-reference': 'error',
@@ -352,4 +346,4 @@ if (jest) {
     });
 }
 
-module.exports = typescript ? {overrides} : {};
+module.exports = typescript ? { overrides } : {};
