@@ -2,8 +2,8 @@ const process = require('process');
 
 const semver = require('semver');
 
-const {packageJson} = require('./utils/files/contents');
-const {graphql, next} = require('./utils/dependencies');
+const { packageJson } = require('./utils/files/contents');
+const { graphql, next } = require('./utils/dependencies');
 
 const nodeVersion = process.version;
 const nodeEnginesVersion = packageJson.engines?.node ? semver.minVersion(packageJson.engines.node).version : undefined;
@@ -76,14 +76,7 @@ const config = {
         'unicorn/prefer-keyboard-event-key': 'error',
         'unicorn/prefer-math-trunc': 'error',
         'unicorn/prefer-negative-index': 'error',
-        'unicorn/prefer-node-protocol': [
-            'error',
-            {
-                checkRequire: nodeEnginesVersion
-                    ? semver.gte(nodeEnginesVersion, '14.18.0')
-                    : semver.gte(nodeVersion, '14.18.0'),
-            },
-        ],
+        'unicorn/prefer-node-protocol': 'error',
         'unicorn/prefer-number-properties': 'error',
         'unicorn/prefer-object-from-entries': 'error',
         'unicorn/prefer-optional-catch-binding': 'error',
