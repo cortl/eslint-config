@@ -56,7 +56,10 @@ const config = {
         'unicorn/no-useless-spread': 'error',
         'unicorn/no-zero-fractions': 'error',
         'unicorn/number-literal-case': 'error',
-        'unicorn/numeric-separators-style': 'error',
+        'unicorn/numeric-separators-style': ['error', {number: {
+            minimumDigits: 3,
+            groupLength: 3,
+        }}],
         'unicorn/prefer-add-event-listener': 'error',
         'unicorn/prefer-array-find': 'error',
         'unicorn/prefer-array-flat': 'error',
