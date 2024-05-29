@@ -1,6 +1,6 @@
 {
   "name": "@cortl/eslint-config",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "Shareable ESlint/Prettier config",
   "main": "index.js",
   "repository": {
