@@ -29,15 +29,15 @@
     "@babel/preset-react": "7.22.15",
     "@next/eslint-plugin-next": "13.5.6",
     "@rushstack/eslint-patch": "1.5.1",
-    "@typescript-eslint/eslint-plugin": "6.9.0",
-    "@typescript-eslint/parser": "6.9.0",
+    "@typescript-eslint/eslint-plugin": "7.11.0",
+    "@typescript-eslint/parser": "7.11.0",
     "confusing-browser-globals": "1.0.11",
     "eslint-config-prettier": "9.0.0",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-get-off-my-lawn": "3.0.0",
     "eslint-plugin-import": "2.29.0",
-    "eslint-plugin-jest": "27.4.3",
+    "eslint-plugin-jest": "28.5.0",
     "eslint-plugin-jest-formatting": "3.1.0",
     "eslint-plugin-jsonc": "2.10.0",
     "eslint-plugin-jsx-a11y": "6.7.1",
@@ -49,7 +49,7 @@
     "fs-extra": "11.1.1",
     "merge-anything": "5.1.7",
     "semver": "7.5.4",
-    "typescript": "5.2.2"
+    "typescript": "5.4.5"
   },
   "peerDependencies": {
     "eslint": ">=8.52.0"

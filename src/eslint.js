@@ -189,7 +189,7 @@ module.exports = {
                 props: true,
             },
         ],
-        'no-promise-executor-return': 'error',
+        'no-promise-executor-return': 'off',
         'no-proto': 'error',
         'no-redeclare': [
             'error',

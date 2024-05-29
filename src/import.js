@@ -30,8 +30,8 @@ const config = {
         'import/no-extraneous-dependencies': 'error',
         'import/no-import-module-exports': 'error',
         'import/no-mutable-exports': 'error',
-        'import/no-named-as-default': 'error',
-        'import/no-named-as-default-member': 'error',
+        'import/no-named-as-default': 'off',
+        'import/no-named-as-default-member': 'off',
         'import/no-relative-packages': 'error',
         'import/no-self-import': 'error',
         'import/no-unresolved': [
