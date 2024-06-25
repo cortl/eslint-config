@@ -29,7 +29,7 @@ const config = {
         'jest/no-duplicate-hooks': 'error',
         'jest/no-focused-tests': 'error',
         'jest/no-identical-title': 'error',
-        'jest/no-if': 'error',
+        'jest/no-conditional-in-test': 'error',
         'jest/no-interpolation-in-snapshots': 'error',
         'jest/no-mocks-import': 'error',
         'jest/no-restricted-matchers': [
